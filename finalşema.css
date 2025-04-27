@@ -1,0 +1,45 @@
+categories (Kategoriler)
+    └── id (PK)
+    └── kategori_adi (UNIQUE)
+
+members (Üyeler)
+    └── id (PK)
+    └── kullanici_adi (UNIQUE)
+    └── eposta (UNIQUE)
+    └── sifre
+    └── kayit_tarihi (default: now)
+    └── ad
+    └── soyad
+
+courses (Eğitimler)
+    └── id (PK)
+    └── adi
+    └── aciklama
+    └── baslangic
+    └── bitis
+    └── egitmen_bilgisi
+    └── category_id (FK → categories.id)
+
+enrollments (Katılımlar)
+    └── id (PK)
+    └── member_id (FK → members.id)
+    └── course_id (FK → courses.id)
+    └── enrollment_date (default: now)
+
+certificates (Sertifikalar)
+    └── id (PK)
+    └── sertifika_kodu (UNIQUE)
+    └── verilis_tarihi
+
+certificate_assignments (Sertifika Atamaları)
+    └── id (PK)
+    └── member_id (FK → members.id)
+    └── certificate_id (FK → certificates.id)
+    └── alim_tarihi
+
+blog_posts (Blog Yazıları)
+    └── id (PK)
+    └── baslik
+    └── icerik
+    └── yayin_tarihi (default: now)
+    └── yazar_id (FK → members.id)
