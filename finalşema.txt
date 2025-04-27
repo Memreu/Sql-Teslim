@@ -43,3 +43,7 @@ blog_posts (Blog Yazıları)
     └── icerik
     └── yayin_tarihi (default: now)
     └── yazar_id (FK → members.id)
+
+
+PNG Dosyasının Oluşturulma Linki :
+https://mermaid.live/edit#pako:eNqtVNtu4jAQ_ZXIT1sJUHAJkLxFbXYXFVYVjVarCikyiQmjXIzsZLUp5d9rBwIhpIJK6zfP5cyZM2Nvkc8CiixE-SOQkJNkkWry-CSjIeNAhfb-3u2yreaznAt5tbQF6nfTBdoHJjRZUn6MoilncZzQNLuIrACuRzYwlzELvQ0TVwN9yjNYgeLuESEgTNuJnMK-knohzHZvUedlZk-nk1-uBoH2_HSy_7bnDz_t-be-rt9p0SHVIwHsQ3YVatVIHdKZT-zpZ4CGwsvjmKTg1wAvalKlG7l0YsO40wSsOD353MnMeXHt2bNkWkDmZYTDGtprk6DdLlhRuY7NVYO_uTmslxVqpV3nj6sRH6KYJLVuHm3X0ZZESBlC8Jt2yEB8JksImRywt4Q4BAEtgzzMufAkx-9PjY7qu3u1K4nm_HDmhxnX8erevUhN72kkp5JeIKk1Ja6v9M06l1KIfWpEvIgFeUPDv5RDDOJsFdqKnr2Z_6VIDb4RUnIjMSTtxGofxu07px6EWiWIGmsHksiZ8TiTQj6T9OKZVPwL8kbOmtuhDgo5BMhakVjQDkooT4i6o5LmAmVrmtAFUp9OQHikfh2VtCHpK2MJsjKeyzTO8nBdXfKNWofD332MoGlA-QPL0wxZeFAiIGuL_smbjntjczQ0MB4aJtbHow4qpHnYw_h-bGBzPOqbgz42dh30VhbVe0PdME19cK-PsKGP--buA7QU0HA
